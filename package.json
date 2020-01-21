@@ -1,0 +1,23 @@
+{
+  "name": "andy-guerin-engineer-test-app",
+  "version": "1.0.0",
+  "description": "andy guerin engineer test code",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "node server.js"
+  },
+  "author": "andy guerin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-pino-logger": "^4.0.0",
+    "pino": "^5.16.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.0",
+    "pino-pretty": "^3.5.0",
+    "supertest": "^4.0.2"
+  }
+}
