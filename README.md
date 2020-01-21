@@ -12,7 +12,7 @@ The logging level and running port can be configured through the use of Environm
 * Node 10
 * Git
 
-## Common setup
+## Setup
 
 Clone the repo and install the dependencies.
 
@@ -37,6 +37,14 @@ Request information will be logged to stdout using the pino logging library. Pin
 
 ```bash
 npm start | ./node_modules/.bin/pino-pretty
+```
+
+## Testing
+
+To run the automated unit tests run the following
+
+```bash
+npm test
 ```
 
 ## Build and Deploy Using Docker
