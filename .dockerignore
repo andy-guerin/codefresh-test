@@ -2,7 +2,6 @@
 .cache
 node_modules
 npm-debug.log
-.npmrc
 .gitignore
 .dockerignore
 .eslintrc.json
