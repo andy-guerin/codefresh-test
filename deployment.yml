@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: {{APP_NAME}}
-          image: engx.artifactory.gcp.anz/codefresh-test-image:poc
+          image: {{IMAGE}}
           ports:
             - containerPort: 8080
               protocol: TCP
