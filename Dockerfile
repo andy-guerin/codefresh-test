@@ -1,5 +1,6 @@
 
-FROM hub.artifactory.gcp.anz/library/node:10-alpine
+#FROM hub.artifactory.gcp.anz/library/node:10-alpine
+FROM node:10-alpine
 #Use Docker Node image's non root user
 RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
 
