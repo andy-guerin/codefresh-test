@@ -1,4 +1,4 @@
-# Andy Guerin Engineering Test app
+# Andy Guerin Engineering Test app 
 
 This simple node.js app returns a JSON payload comprising service information when a request is made to the /info endpoint
 
